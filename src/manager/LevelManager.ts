@@ -34,9 +34,10 @@ export class LevelManager {
         }
     }
 
-    public gameLoop(delta: number) {
+    public gameLoop(delta: number, app: Application) {
         if (!this.player?.isPlayerAlive()) {
             this.levelManagerUI.gameOver();
+            app.stop();
         }
         this.player?.gameLoop(delta);
         this.foods.forEach(e => e.gameLoop(this.player!))

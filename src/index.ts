@@ -31,7 +31,7 @@ async function init()
             seconds = time;
             levelManager.spawnFoods(seconds, app);
         }
-        levelManager.gameLoop(delta);
+        levelManager.gameLoop(delta, app);
         timer++;
     });
 
