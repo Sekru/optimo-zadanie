@@ -1,0 +1,26 @@
+{
+    "animations": {
+        "idle": [
+            "knight iso char_idle_0.png",
+            "knight iso char_idle_1.png",
+            "knight iso char_idle_2.png",
+            "knight iso char_idle_3.png"
+        ],
+        "moveRight": [
+            "knight iso char_run right_0.png",
+            "knight iso char_run right_1.png",
+            "knight iso char_run right_2.png",
+            "knight iso char_run right_3.png",
+            "knight iso char_run right_4.png",
+            "knight iso char_run right_5.png"
+        ],
+        "moveLeft": [
+            "knight iso char_run left_0.png",
+            "knight iso char_run left_1.png",
+            "knight iso char_run left_2.png",
+            "knight iso char_run left_3.png",
+            "knight iso char_run left_4.png",
+            "knight iso char_run left_5.png"
+        ]
+    }
+}
